@@ -1,0 +1,28 @@
+2024-07-31
+
+Accompaniment to "Molecular Characterization of Gliomas and Glioneuronal Tumors Amid Noonan Syndrome: Cancer Predisposition Examined", published in Frontiers in Oncology, August 2024.
+
+This script produces a static and an interactive, annotated UMAP plot of internal and external (UCSC Treehouse CNS) RNASeq cohorts.
+
+User adds internal sample metadata to the metadata/metadata_internal_cohort.xlsx file. The script RNAseq_dimensionality_reduction.R takes as variables the case name, the sample name, and the path to the salmon files. 
+
+To use Treehouse data as external cohort for analysis, we regret to inform you that you must download the dataset. It was too large to upload to Github. 
+
+R/Package versions:
+R (4.1.1)
+tidyverse (v.1.3.1)
+dplyr (v.1.0.9)
+plyr (v.1.8.7)
+Salmon (v.1.9.0)
+tximport (v.1.18.0)
+matrixStats (v.0.61.0)
+umap (v.0.2.8.0)
+rsvg (v.2.2.0)
+ggrepel (v.0.9.1)
+RColorBrewer (v.1.1.3)
+plotly (v.4.10.0)
+ggplot2 (v.3.3.6)
+
+
+
+For questions regarding this script, please contact Heather.Costello@nationwidechildrens.org
